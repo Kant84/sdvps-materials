@@ -12,13 +12,13 @@
 - `docker build . -t hello-world:v$BUILD_NUMBER`
 
 **Настройки Git:**
-![Настройки Git](https://github.com/Kant84/sdvps-materials/blob/main/screenshots/рисунок_1.png)
+![Настройки Git](screenshots/рисунок_1.png)
 
 **Build Steps (скрипт сборки):**
-![Build Steps](https://github.com/Kant84/sdvps-materials/blob/main/screenshots/рисунок_2.png)
+![Build Steps](screenshots/рисунок_2.png)
 
 **Результат сборки (Console Output):**
-![Console Output](https://github.com/Kant84/sdvps-materials/blob/main/screenshots/рисунок_3.png)
+![Console Output](screenshots/рисунок_3.png)
 
 Статус: **SUCCESS**
 
@@ -31,10 +31,10 @@
 Declarative pipeline с этапами: Git → Test → Build Binary → Upload to Nexus
 
 **Stage View (все этапы зелёные):**
-![Stage View](https://github.com/Kant84/sdvps-materials/blob/main/screenshots/рисунок_4.png)
+![Stage View](screenshots/рисунок_4.png)
 
 **Console Output (Docker build):**
-![Docker Build](https://github.com/Kant84/sdvps-materials/blob/main/screenshots/рисунок_5.png)
+![Docker Build](screenshots/рисунок_5.png)
 
 Статус: **SUCCESS**
 
@@ -51,10 +51,10 @@ Pipeline модифицирован:
 - Загрузка в Nexus через `curl`
 
 **Репозиторий Nexus с загруженным файлом:**
-![Nexus Repository](https://github.com/Kant84/sdvps-materials/blob/main/screenshots/рисунок_6.png)
+![Nexus Repository](screenshots/рисунок_6.png)
 
 **Console Output — загрузка в Nexus (HTTP 201 Created):**
-![Upload to Nexus](https://github.com/Kant84/sdvps-materials/blob/main/screenshots/рисунок_7.png)
+![Upload to Nexus](screenshots/рисунок_7.png)
 
 Файл `app-v3` успешно загружен.
 
@@ -67,4 +67,4 @@ Pipeline модифицирован:
 Файлы именуются: `app-v1`, `app-v2`, `app-v3`...
 
 **Несколько версий в Nexus:**
-![Версии в Nexus](https://github.com/Kant84/sdvps-materials/blob/main/screenshots/рисунок_8.png)
+![Версии в Nexus](screenshots/рисунок_8.png)
